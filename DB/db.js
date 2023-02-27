@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize');
 const sequelize = new Sequelize('blogdb', 'root', 'Brksbs5620.', {
-    host: 'localhost',
+    host: 'https://nodejs-ex-eight.vercel.app',
     dialect: 'mysql'
   });
 
